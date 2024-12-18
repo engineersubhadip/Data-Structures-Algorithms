@@ -10,12 +10,10 @@ public class PrintIncreasingManner {
 		if (N == 1) {
 			String ans = "";
 			ans += "1";
-			ans += " ";
 			return ans;
 		}
 		String result = printIncreasing(N-1);
-		String ans =  result + N;
-		ans += " ";
+		String ans =  result+" "+ N;
 		return ans;
 	}
 	
