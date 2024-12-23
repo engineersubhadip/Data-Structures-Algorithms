@@ -1,7 +1,7 @@
 package Recursion;
 
 public class PowerFunction {
-	
+//	TC : O(logN) and SC : O(logN)
 	static int recursion (int base, int power) {
 		
 		if (power == 0) {
