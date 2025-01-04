@@ -1,0 +1,9 @@
+1. Identify the task :-
+The task is to count the number of Nodes in a BT in a seperate Thread.
+
+2. Implement the task in the form of Class (nodeCounter):-
+This class will take a BT as input and return the count of nodes in that tree. -> Callable
+
+3. Create the task :-
+
+4. Submit the task to the executor service.
