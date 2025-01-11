@@ -1,0 +1,7 @@
+1. Identify the task that needs to be run on seperate Thread.
+
+2. Implement the task in the form of Class.
+
+3. Create the task.
+
+4. Submit the task to the Executor Service.
