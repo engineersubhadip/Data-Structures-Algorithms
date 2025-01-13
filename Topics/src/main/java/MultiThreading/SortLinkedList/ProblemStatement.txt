@@ -1,0 +1,10 @@
+Given a Linked List sort it in a Multi-Threaded Environment
+
+1. Identify the task that needs to be executed on a separate Thread.
+	We need to sort a Linked list.
+
+2. Implement the task in the form of class. -> LinkedListSorter
+
+3. Create the task.
+
+4. Submit the task to the Executor Service.
