@@ -1,0 +1,12 @@
+Given a sorted array of integers A where every element appears twice except for one element which appears once, 
+find and return this single element that appears only once.
+
+Elements which are appearing twice are adjacent to each other.
+
+NOTE: Users are expected to solve this in O(log(N)) time.
+
+A = [1, 1, 7]
+op : 7
+
+A = [2, 3, 3]
+op : 2
