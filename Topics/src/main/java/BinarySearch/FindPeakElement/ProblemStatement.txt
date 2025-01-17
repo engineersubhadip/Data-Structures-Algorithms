@@ -1,0 +1,15 @@
+Problem Description
+
+Given an array of integers A, find and return the peak element in it.
+An array element is considered a peak if it is not smaller than its neighbors. For corner elements, we need to consider only one neighbor.
+
+NOTE:
+
+It is guaranteed that the array contains only a single peak element.
+Users are expected to solve this in O(log(N)) time. The array may contain duplicate elements.
+
+A = [1, 2, 3, 4, 5]
+op : 5
+
+A = [5, 17, 100, 11]
+op : 100
