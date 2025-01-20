@@ -1,0 +1,43 @@
+To define the natural ordering of the User Defined data type. We shall use Comparable interface.
+
+List<Student> arr = new ArrayList<>();
+
+arr.add(new Student(id:1,age:22));
+arr.add(new Student(id:4,age:29));
+arr.add(new Student(id:2,age:27));
+arr.add(new Student(id:3,age:23));
+
+Collections.sort(arr); -> This will throw an error as we have not defined the natural ordering of the Student Data type.
+
+To define natural ordering we need to implement the Comparable interface.
+
+class Student implements Comparable <Student> {
+
+	int id;
+	int age;
+
+	public Student (int id, int age ) {
+		this.id = id;
+		this.age = age;
+	}
+
+	public int compareTo (Student student) {
+
+		if (this.age < student.age) {
+			return -1;
+		} else {
+			return 1;
+		}
+	}
+}
+
+Now in the future if we want some different ordering of the Student data type, we will not come inside the Student class and change the order.
+Rather we will implement the Comparator.
+
+	Collections.sort(arr, new Comparator <Student> () {
+		public int compare (Student s1, Student s2) {
+			return s1.id.compareTo(s2.id);
+		}
+	});
+
+ 

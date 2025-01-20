@@ -1,1 +1,11 @@
 We cannot use Comparator to sort PRIMITIVE Data Types.
+
+Using comparator we can only sort Non-Primitive Data Types.
+
+		List<Integer> arr = new ArrayList<>(Arrays.asList(12,13,4,5,8,1,22,19));
+		
+		Collections.sort(arr, new Comparator<Integer> () {
+		   public int compare(Integer a, Integer b) {
+		       return b.compareTo(a);
+		   } 
+		});
