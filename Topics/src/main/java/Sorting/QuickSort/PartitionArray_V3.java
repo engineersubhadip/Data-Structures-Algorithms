@@ -28,7 +28,7 @@ public class PartitionArray_V3 {
 		int temp = arr.get(j);
 		arr.set(j, refEle);
 		arr.set(start, temp);
-		return end;
+		return j;
 	}
 	
 	static void quickSort(List<Integer>arr, int start, int end) {
